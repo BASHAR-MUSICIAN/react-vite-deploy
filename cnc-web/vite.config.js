@@ -9,6 +9,7 @@ export default defineConfig({
     allowedHosts: [
       "insessorial-uninterred-mirtha.ngrok-free.dev", // your ngrok domain
       "*.ngrok-free.dev"
+      base: process.env.VITE_BASE_PATH || "/react-vite-deploy",
     ]
   }
 });
